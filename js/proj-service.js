@@ -15,7 +15,7 @@ function createProject(name,title,description, imgUrl,projUrl) {
 }
 createProjects();
 function createProjects() {
-debugger
+
 gProjs.push(createProject('Minesweeper-game','Minesweeper-game Minesweeper-game Minesweeper-game Minesweeper-game', 'Minesweeper-game', 'img/minesweeper/minesweeper.png','https://arkadiyz.github.io/Minesweeper-game1/'));
 gProjs.push(createProject('Book-Shop','Threads Threads Threads Threads Threads Threads Threads', 'Illustration', 'img/BOOK-SHOP/book-shop.jpg','https://arkadiyz.github.io/shop-books/'));
 
@@ -23,7 +23,7 @@ gProjs.push(createProject('Book-Shop','Threads Threads Threads Threads Threads T
 }
 
 function getProjs() {
-    debugger
+    
     return gProjs;
 }
 
